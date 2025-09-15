@@ -42,7 +42,8 @@ def divide_numbers(e):
     display(f'The quotient of {dividend1} / {dividend2} is {quotient} !', target='output')
 
 def calculate_trapezoid_area(e):
-
+    document.getElementById('trapezoid_area_output').innerHTML = " "
+    
     a = float(document.getElementById('b1').value) # first base.
     b = float(document.getElementById('b2').value) # second base.
     c = float(document.getElementById('h').value) # height.
@@ -75,4 +76,5 @@ def collect_data(e):
     # answer = (a + b)*b-2+a*b/c
 
     # display(f'The answer is {answer}.')
+
 """
